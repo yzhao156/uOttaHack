@@ -5,3 +5,60 @@
     font-family: arial;
     font-size: 14px;
 }
+
+#tableContiner {
+    margin: 0;
+    padding: 0;
+    width: 600px;
+    height: 430px;
+    border: 1px solid silver;
+    overflow-y: scroll;
+    /* overflow-x: scroll; */
+    margin: auto;
+}
+
+tr,
+td {
+    background-color: #EEE;
+    border-bottom: 0px solid silver;
+    border: 0px solid silver;
+    border-bottom-right-radius: 1px;
+    padding: 0px;
+    text-align: center;
+}
+
+tr:first-child td {}
+
+#submit {}
+
+td textarea,
+td input {
+    width: 90px;
+    height: 22px;
+    padding: 0;
+    margin: 0;
+}
+
+td textarea {
+    resize: none;
+}
+
+td input {
+    background-color: rgb(233, 233, 233);
+}
+
+td:first-child {
+    width: 60px;
+    height: 9px;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(251, 251, 251);
+}
+
+.inline {
+    display: inline;
+}
+
+.unit {
+    width: 110px;
+}
