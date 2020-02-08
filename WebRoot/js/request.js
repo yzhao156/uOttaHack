@@ -21,5 +21,6 @@ $(document).ready(function() {
             }
             drawIncConfSusp(history);
             drawConfSusp(history);
+            drawCuresDeath(history);
         });
 });
