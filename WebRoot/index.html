@@ -1,19 +1,45 @@
 <!DOCTYPE html>
-<html>
+<html style="height: 100%">
 
 
 <head>
     <meta charset="utf-8" />
-    <title>tmp tile for Hackthon</title>
+    <title>Real Time Coronavirus Statistics</title>
     <link rel="stylesheet" type="text/css" href="css/index.css">
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="js/request.js"></script>
+    <script src="js/graph.js"></script>
     <!-- <script src="js/d3.js"></script> -->
+
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/dist/echarts.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts-gl/dist/echarts-gl.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts-stat/dist/ecStat.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/dist/extension/dataTool.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/map/js/china.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/map/js/world.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/dist/extension/bmap.min.js"></script>
 </head>
 
-<body>
-    hi
+<!-- <body style="height: 100%; margin: 0"> -->
+
+<body style="height: 100%; margin: 0">
+    <!-- <div id="container" style="height: 100%"> -->
+    <!-- <div id="incrementConfirmedSuspected"> -->
+    <div style="height: 50%; margin: 0">
+        <div id="icsContainer" style="height: 100%">
+        </div>
+    </div>
+    <div style="height: 50%; margin: 0">
+        <div id="csContainer" style="height: 100%">
+        </div>
+    </div>
+
+    <!-- </div> -->
+
+
+
+    <!-- </div> -->
 </body>
 
 </html>
